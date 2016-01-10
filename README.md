@@ -15,6 +15,6 @@ Quotes of Swami Chinmayananda
 ##His Writings
 Things written by Swami Chinmayananda
 
-- [Excerpts]
-- [Full Texts]
+- Excerpts
+- Full Texts
 
