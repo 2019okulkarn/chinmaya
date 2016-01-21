@@ -91,7 +91,7 @@
           </div>
         </li>
 </section>
-<section id="timeline2" class="wrapper style4">
+<section id="timeline2" class="wrapper style2">
 					<ul class="timeline">
         <li class="timeline-inverted">
         <div class="timeline-badge info"><i class="icon fa-user"></i></div>
@@ -108,24 +108,59 @@
           <div class="timeline-badge"><i class="icon fa-globe"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">1951</h4>
+              <h4 class="timeline-title">December, 1951</h4>
             </div>
             <div class="timeline-body">
-              <p>After 2 years of study under Swami Tapovan Maharaj in the Himalayas, Swami Chinmayananda went to India to teach Vedanta to everybody.</p>
+              <p>After 2 years of study under Swami Tapovan Maharaj in the Himalayas, Swami Chinmayananda gave his first lecture in a Ganesh Mandir.</p>
           </div>
         </li>
         <li class="timeline-inverted">
         <div class="timeline-badge danger"><i class="icon fa-heart"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">August 3, 1993</h4>
+              <h4 class="timeline-title">August 8, 1953</h4>
             </div>
             <div class="timeline-body">
-              <p>Swami Chinmayananda passed away due to a heart attack.</p>
+              <p>Chinmaya Mission is founded to give organization to the work done by Swami Chinmayananda.</p>
             </div>
           </div>
     </ul>
 </section>
+<section id="timeline3" class="wrapper style4">
+					<ul class="timeline">
+        <li class="timeline-inverted">
+        <div class="timeline-badge info"><i class="icon fa-user"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">August 3, 1993</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Swami Chinmayananda suffers from a heart attack and attains Mahasamadhi.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="icon fa-globe"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">May 8, 2015</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Birth centenary celebrations kickoff on Swami Chinmayananda's 99th birthday.</p>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+        <div class="timeline-badge danger"><i class="icon fa-heart"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title" id="today">Today</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Swami Chinmayananda lives inside of you! Keep smiling!</p>
+            </div>
+          </div>
+    </ul>
+</section>                            
 
 				<!-- Footer -->
 	<section id="icons" class="wrapper style2 special">
@@ -147,8 +182,9 @@
 							<li><a href="mailto:info@chinmayadc.org" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; 2016 <a href="http://chinmayadc.org">CMWRC</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="http://chinmayamission.com"> Chinmaya Mission</a></li><li>Created by: Omkar Kulkarni</li>
+							<li>&copy; 2016 <a href="http://okulkarni.cf">Omkar Kulkarni</a> and <a href="http://techfimer.com">Srijay Kasturi</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="http://chinmayamission.com"> Chinmaya Mission</a></li>
 						</ul>
+                        <img src="http://www.cmmiami.org/imagefiles/bcc%20logo.jpg" height=100/>
 					</footer>
 
 			</div>
@@ -161,6 +197,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
+            <script>                
+                var n = moment().format("MMMM DD, YYYY"); 
+                document.getElementById("today").innerHTML = n.toString();
+            </script>
 
 	</body>
 </html>
